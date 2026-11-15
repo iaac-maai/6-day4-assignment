@@ -1,0 +1,24 @@
+# python
+.venv/
+venv/
+__pycache__/
+
+# jupyter
+.ipynb_checkpoints/
+
+# data: downloaded by the notebook, not uploaded
+data/*
+!data/.gitkeep
+
+# the weights and the preprocessing go to hugging face, not github
+models/*.pt
+models/*.joblib
+test_download/
+
+# mac / windows
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
